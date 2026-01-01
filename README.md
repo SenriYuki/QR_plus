@@ -75,13 +75,13 @@ To solve this, I developed a lightweight script specifically designed to optimiz
 
 \*\*English:\*\*
 
-Save the code below as a file named `qr\_plus.js` and place it in the `public` folder of your SillyTavern directory. Then, modify `index.html` to load it.
+Save the code below as a file named `qr_plus.js` and place it in the `public` folder of your SillyTavern directory. Then, modify `index.html` to load it.
 
 
 
 \*\*简体中文:\*\*
 
-将下方的代码保存为 `qr\_plus.js`，放入酒馆目录的 `public` 文件夹中，修改 `index.html` 刷新页面即可使用！
+将下方的代码保存为 `qr_plus.js`，放入酒馆目录的 `public` 文件夹中，修改 `index.html` 刷新页面即可使用！
 
 
 
@@ -93,7 +93,7 @@ Save the code below as a file named `qr\_plus.js` and place it in the `public` f
 
 
 
-1\. Save the code as `qr\_plus.js`.
+1\. Save the code as `qr_plus.js`.
 
 2\. Move the file to your SillyTavern `public` folder (e.g., `C:\\SillyTavern\\public`).
 
@@ -105,7 +105,7 @@ Save the code below as a file named `qr\_plus.js` and place it in the `public` f
 
 ```html
 
-<script src="qr\_plus.js" defer></script>
+<script src="qr_plus.js" defer></script>
 
 
 
@@ -129,13 +129,13 @@ Save the code below as a file named `qr\_plus.js` and place it in the `public` f
 
 \*\*English:\*\*
 
-Download the code file (rename it to `qr\_plus.js` and put it in your phone's Download folder). Then run the following command in Termux to automatically install it:
+Download the code file (rename it to `qr_plus.js` and put it in your phone's Download folder). Then run the following command in Termux to automatically install it:
 
 
 
 \*\*简体中文:\*\*
 
-请先将代码保存为 `qr\_plus.js` 并放在手机的“下载”文件夹中。然后在 Termux 里按顺序执行以下命令：
+请先将代码保存为 `qr_plus.js` 并放在手机的“下载”文件夹中。然后在 Termux 里按顺序执行以下命令：
 
 
 
@@ -161,17 +161,18 @@ termux-setup-storage
 
 ```bash
 
-cp /sdcard/Download/qr\_plus.js ~/SillyTavern/public/ \&\& \\
+cp /sdcard/Download/qr_plus.js ~/SillyTavern/public/ \&\& \\
 
 cd ~/SillyTavern/public \&\& \\
 
-sed -i '/<script type="module" src="script.js"><\\/script>/i <script src="qr\_plus.js" defer></script>' index.html \&\& \\
+sed -i '/<script type="module" src="script.js"><\\/script>/i <script src="qr_plus.js" defer></script>' index.html \&\& \\
 
 echo "✅ Install Success! Please refresh the page. / 安装成功！请刷新网页。"
 
 
 
 ```
+
 
 
 
